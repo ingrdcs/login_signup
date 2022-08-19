@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="form-container">
+            <form action="https://api.sheetmonkey.io/form/fZEumLMnhjHyjPj5RcFZaa" method="post">
+                <h2>Cadastro</h2>
+                <div class="form-group">
+
+                    <label for="nome">Nome</label>
+                    <input type="text" class="input-nome" name="Nome" id="nome" placeholder="Digite seu nome" required>
+                    <label for="email">Email</label>
+                    <input type="email" class="input-email" name="Email" id="email" placeholder="Digite um email" required>
+                    <label for="senha">Senha</label>
+                    <input type="password" class="input-password" name="Password" id="senha" placeholder="Crie uma senha" required>
+
+                    <button type="submit" class="btn-cadastrar" onclick="cadastroRealizado()">Cadastrar</button>
+
+                    <a href="index.html">
+                        <h4>Já possui uma conta? Entrar.</h4>
+                    </a>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="cadastrar-scripts.js"></script>
+</body>
+
+</html>

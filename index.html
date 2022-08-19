@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="form-container">
+            <form action="https://api.sheetmonkey.io/form/7jp6DvNuyyyJdwLu5v5ZPb" method="post">
+                <h2>Login</h2>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="input-email" name="Email" id="email" placeholder="Digite seu email" required>
+                    <label for="senha">Senha</label>
+                    <input type="password" class="input-password" name="Password" id="senha" placeholder="Digite sua senha" required>
+
+                    <button type="submit" class="btn-entrar" onclick="loginRealizado()">Entrar</button>
+
+                    <h4> Não possui conta?</h4>
+                    <a href="cadastrar.html"><button type="button" class="btn-cadastrar">Cadastrar</button></a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="entrar-scripts.js"></script>
+</body>
+
+</html>
